@@ -41,18 +41,32 @@ body {
 .header {
   background-color: var(--color-primary);
   color: #FFF;
-  padding: 1rem;
+  padding: 2rem 3rem;
   display: flex;
   flex-direction: column;
-  align-items: end; }
+  align-items: flex-end; }
   .header__heading-1 {
     text-transform: uppercase;
-    line-height: 1; }
+    line-height: 1.6;
+    font-size: 5rem; }
     .header__heading-1 span {
       color: var(--color-tertiary);
       font-weight: 400; }
+  .header__heading-sub {
+    margin-top: -2rem;
+    font-size: 3rem; }
   .header__motto {
-    margin-top: 3rem; }
+    font-size: 4rem;
+    font-weight: 300;
+    margin-top: 14rem;
+    align-self: center; }
+  .header__btn {
+    margin-top: 6rem;
+    font-size: 3rem;
+    padding: 1.5rem 4rem; }
+  .header__phone-number {
+    font-size: 2rem;
+    margin-top: 2rem; }
 
 .search {
   display: flex;
