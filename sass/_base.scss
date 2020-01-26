@@ -1,3 +1,15 @@
+:root {
+    --color-primary: #258EAE;
+    --color-secondary: #2DD349;
+    --color-tertiary: #A5F5F1;
+
+    --color-grey-1: #766F6F;
+    --color-grey-2: #BABABA;
+    --color-grey-3: #EFE2E1;
+    --color-grey-4: #FBFBFB;
+}
+
+
 *,
 *::before,
 *::after {
@@ -15,4 +27,18 @@ body {
     line-height: 1.6;
     font-size: 1.6rem;
     font-family: sans-serif;
+    color: var(--color-grey-1);
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 40vw 60vw;
+}
+
+.btn {
+    background-color: var(--color-secondary);
+    padding: 1rem;
+    border-radius: 11rem;
+    border: none;
+    color: #FFF;
 }

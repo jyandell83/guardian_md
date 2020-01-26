@@ -1,0 +1,8 @@
+.benefits {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+
+    &__heading-2 {
+        grid-column: 1 / -1;
+    }
+}
