@@ -72,6 +72,11 @@ body {
     width: 2rem;
     fill: currentColor; }
 
+.slide-show {
+  background-image: url(../img/doc.jpg);
+  background-size: cover;
+  overflow: hidden; }
+
 .search {
   display: flex;
   flex-direction: column;
