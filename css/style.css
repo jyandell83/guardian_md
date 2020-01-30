@@ -78,12 +78,25 @@ body {
   overflow: hidden; }
 
 .search {
+  padding: 5rem;
   display: flex;
   flex-direction: column;
-  align-items: center; }
+  align-items: flex-start; }
   .search__form {
+    height: 30rem;
+    width: 75%;
+    margin-top: 1.5rem;
     display: flex;
+    justify-content: space-between;
     flex-direction: column; }
+  .search__input {
+    font-size: 4rem;
+    border: solid 1px var(--color-grey-1);
+    border-radius: 3px; }
+  .search__btn {
+    align-self: center;
+    font-size: inherit;
+    padding: 1rem 3rem; }
 
 .benefits {
   background-color: var(--color-grey-4);
