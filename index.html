@@ -26,9 +26,15 @@
         <div class="slide-show">This is slide show</div>
         <div class="search">
             <h2 class="search__heading-2 heading-2">Quick search</h2>
-            <form class="search__form" action="">
-                <input class="search__input" type="">
-                <input class="search__input" type="">
+            <form class="search__form" action="#">
+                <div class="search__group">
+                    <input class="search__input" placeholder="Patient ID" type="text" id="patientid" >
+                    <label class="search__label" for="patientid">Patient ID</label>
+                </div>
+                <div class="search__group">
+                    <input class="search__input" placeholder="Location" type="text" id="location" >
+                    <label class="search__label" for="location">Location</label>
+                </div>
 
                 <p class="search_text">Vivamus aliquet luctus lacinia. Mauris in magna fermentum, pharetra tortor eu, molestie libero. Donec condimentum mauris fringilla leo rhoncus, in auctor metus euismod.</p>
                 <button class="search__btn btn">Search</button>

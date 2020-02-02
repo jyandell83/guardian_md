@@ -89,10 +89,35 @@ body {
     display: flex;
     justify-content: space-between;
     flex-direction: column; }
+  .search__group {
+    margin-bottom: 2rem;
+    display: flex;
+    flex-direction: column-reverse; }
+  .search__label {
+    font-size: 1.2rem;
+    font-weight: 700;
+    display: block;
+    margin-left: 2rem;
+    transition: all .3s; }
   .search__input {
-    font-size: 4rem;
+    font-size: 1.6rem;
+    font-family: inherit;
+    color: inherit;
+    padding: 1.5rem 2rem;
     border: solid 1px var(--color-grey-1);
-    border-radius: 3px; }
+    border-radius: 3px;
+    width: 100%;
+    display: block; }
+    .search__input:focus {
+      outline: none;
+      box-shadow: 0 1rem 3rem var(--color-grey-2);
+      border-bottom: 1px solid var(--color-primary); }
+    .search__input::placeholder {
+      color: #999; }
+  .search__input:placeholder-shown + .search__label {
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(3rem); }
   .search__btn {
     align-self: center;
     font-size: inherit;
